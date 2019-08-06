@@ -8,7 +8,7 @@ module.exports = {
     siteTitleAlt: `headhunt | Home`,
     siteHeadline: `headhunt - crypto recruiment agency`,
     siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Next generation recruitment agency for the blockchain and crypto industries.`,
+    siteDescription: `A disruptive recruitment agency specialized in the blockchain (DLT) industry.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `r153r`,
@@ -29,7 +29,7 @@ module.exports = {
       options: {
         name: `headhunt-btc`,
         short_name: `headhunt`,
-        description: `Next generation recruitment agency for the blockchain and crypto industries.`,
+        description: `A disruptive recruitment agency specialized in the blockchain (DLT) industry.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
