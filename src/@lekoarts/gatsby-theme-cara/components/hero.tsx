@@ -19,20 +19,19 @@ const Hero = ({ offset }: { offset: number }) => (
         <SVG icon="arrowUp" hiddenMobile width={16} color="icon_blue" left="80%" top="10%" />
         <SVG icon="triangle" width={12} color="icon_brightest" left="90%" top="50%" />
         <SVG icon="circle" width={16} color="icon_darker" left="70%" top="90%" />
-        <SVG icon="triangle" width={16} color="icon_darkest" left="30%" top="65%" />
+        <SVG icon="triangle" width={16} color="icon_darkest" left="30%" top="70%" />
         <SVG icon="circle" width={6} color="icon_darkest" left="75%" top="10%" />
         <SVG icon="upDown" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="circle" hiddenMobile width={24} color="icon_darker" left="5%" top="70%" />
       <SVG icon="circle" width={6} color="icon_darkest" left="4%" top="20%" />
-      <SVG icon="circle" width={12} color="icon_darkest" left="50%" top="60%" />
+      <SVG icon="circle" width={12} color="icon_darkest" left="50%" top="70%" />
       <SVG icon="upDown" width={8} color="icon_darkest" left="95%" top="90%" />
       <SVG icon="upDown" hiddenMobile width={24} color="icon_darker" left="40%" top="80%" />
       <SVG icon="triangle" width={8} color="icon_darker" left="25%" top="5%" />
       <SVG icon="circle" width={64} color="icon_green" left="90%" top="5%" />
       <SVG icon="box" hiddenMobile width={64} color="icon_purple" left="5%" top="90%" />
       <SVG icon="box" width={6} color="icon_darkest" left="10%" top="10%" />
-      <SVG icon="box" width={12} color="icon_darkest" left="40%" top="30%" />
       <SVG icon="hexa" width={16} color="icon_darker" left="10%" top="50%" />
       <SVG icon="hexa" width={8} color="icon_darker" left="80%" top="70%" />
     </Divider>
