@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `headhunt | Home`,
   },
   plugins: [
     {
@@ -20,9 +20,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `headhunt-btc`,
+        short_name: `headhunt`,
+        description: `Next generation recruitment agency for the blockchain and crypto industries.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -41,6 +41,16 @@ module.exports = {
         ],
       },
     },
+		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+				fonts: [
+					`Lekton`,
+					`source sans pro\:400`
+				],
+				display: 'swap'
+			}
+		},
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
