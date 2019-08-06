@@ -7,7 +7,7 @@ module.exports = {
     siteTitle: `headhunt`,
     siteTitleAlt: `headhunt | Home`,
     siteHeadline: `headhunt - crypto recruiment agency`,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `https://headhunt-btc.com`,
     siteDescription: `A disruptive recruitment agency specialized in the blockchain (DLT) industry.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
