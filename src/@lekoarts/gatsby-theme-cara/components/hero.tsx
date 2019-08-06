@@ -11,7 +11,7 @@ const Hero = ({ offset }: { offset: number }) => (
   <div>
     <Divider speed={0.2} offset={offset}>
       <UpDown>
-        <SVG icon="triangle" hiddenMobile width={48} color="icon_orange" left="10%" top="20%" />
+        <SVG icon="triangle" hiddenMobile width={48} color="icon_orange" left="8%" top="15%" />
         <SVG icon="hexa" width={48} color="icon_red" left="60%" top="70%" />
         <SVG icon="box" width={6} color="icon_darker" left="60%" top="15%" />
       </UpDown>
@@ -29,7 +29,7 @@ const Hero = ({ offset }: { offset: number }) => (
       <SVG icon="upDown" width={8} color="icon_darkest" left="95%" top="90%" />
       <SVG icon="upDown" hiddenMobile width={24} color="icon_darker" left="40%" top="80%" />
       <SVG icon="triangle" width={8} color="icon_darker" left="25%" top="5%" />
-      <SVG icon="circle" width={64} color="icon_green" left="95%" top="5%" />
+      <SVG icon="circle" width={64} color="icon_green" left="90%" top="5%" />
       <SVG icon="box" hiddenMobile width={64} color="icon_purple" left="5%" top="90%" />
       <SVG icon="box" width={6} color="icon_darkest" left="10%" top="10%" />
       <SVG icon="box" width={12} color="icon_darkest" left="40%" top="30%" />
