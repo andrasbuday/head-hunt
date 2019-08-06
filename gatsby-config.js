@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `headhunt`,
     siteTitleAlt: `headhunt | Home`,
+    siteHeadline: `headhunt - crypto recruiment agency`,
+    siteUrl: `https://cara.lekoarts.de`,
+    siteDescription: `Next generation recruitment agency for the blockchain and crypto industries.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `r153r`,
   },
   plugins: [
     {
