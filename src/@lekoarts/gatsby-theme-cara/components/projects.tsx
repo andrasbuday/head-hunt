@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import { Link } from 'gatsby'
 import Divider from "../elements/divider"
 import Inner from "../elements/inner"
 import Content from "../elements/content"
@@ -10,7 +11,7 @@ import ProjectsMDX from "../sections/projects.mdx"
 const Projects = ({ offset }: { offset: number }) => (
   <div>
     <Divider
-      bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
+      bg="divider"
       sx={{ clipPath: `polygon(0 15%, 100% 25%, 100% 85%, 0 75%)` }}
       speed={-0.2}
       offset={1.1}
@@ -23,11 +24,20 @@ const Projects = ({ offset }: { offset: number }) => (
             display: `grid`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h2: { gridColumn: `-1/1`, color: `white !important` },
+            h2: { gridColumn: `-1/1` },
           }}
         >
           <ProjectsMDX />
         </div>
+        <Link to="/test">
+         <button
+          sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mt: 5,  mb: 3, px: 4, py: 3, fontSize: 2, display: `block`, mx: `auto`  }}
+          type="button"
+          aria-label="Toggle dark mode"
+        >
+         More
+       </button>
+     </Link>
       </Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={2}>
